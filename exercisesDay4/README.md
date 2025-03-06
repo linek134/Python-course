@@ -15,4 +15,6 @@ subfolder docs contains the output files from Sphinx
 
 customized_plotting.ipynb contains an additional cell with my code for generating a scatter plot.
 The file my_fancy_plot_custom.pdf contains the same plot.
+
+## 4. Optimization with SciPy
 Unfortunately I ran out of time and didn´t finish the last exercise. 
