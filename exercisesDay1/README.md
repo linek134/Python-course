@@ -7,7 +7,7 @@ hello.py contains the script created for exercise
 
 2. Working with git
 
-The forked repository generated in this exercise can be found here:
+The forked repository generated in this exercise can be found here: https://github.com/linek134/my_repository
 For exercise 2c-2g, see also the file linneae.md in the pushed to the parent directory.
 
 3. Interactive Python
