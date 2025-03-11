@@ -24,7 +24,7 @@ In the utils.py:
 Declared the value in the inner function as nonlocal.
 
 
-##Exercise 3
+## Exercise 3
 Content of the files in directory exercise3
 euler72.py and matmult.py are the original files
 *.prof contains the output of cProfiler
