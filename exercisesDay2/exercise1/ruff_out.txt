@@ -1,0 +1,45 @@
+animals/__init__.py:8:29: F401 `.harmless.birds.Birds` imported but unused; consider removing, adding to `__all__`, or using a redundant alias
+   |
+ 6 | @author: linnekst
+ 7 | """
+ 8 | from .harmless.birds import Birds
+   |                             ^^^^^ F401
+ 9 | from .mammals import Mammals
+10 | from .dangerous.fish import Fish
+   |
+   = help: Use an explicit re-export: `Birds as Birds`
+
+animals/__init__.py:9:22: F401 `.mammals.Mammals` imported but unused; consider removing, adding to `__all__`, or using a redundant alias
+   |
+ 7 | """
+ 8 | from .harmless.birds import Birds
+ 9 | from .mammals import Mammals
+   |                      ^^^^^^^ F401
+10 | from .dangerous.fish import Fish
+   |
+   = help: Use an explicit re-export: `Mammals as Mammals`
+
+animals/__init__.py:10:29: F401 `.dangerous.fish.Fish` imported but unused; consider removing, adding to `__all__`, or using a redundant alias
+   |
+ 8 | from .harmless.birds import Birds
+ 9 | from .mammals import Mammals
+10 | from .dangerous.fish import Fish
+   |                             ^^^^ F401
+   |
+   = help: Use an explicit re-export: `Fish as Fish`
+
+animals/dangerous/__init__.py:1:19: F401 `.fish.Fish` imported but unused; consider removing, adding to `__all__`, or using a redundant alias
+  |
+1 | from .fish import Fish
+  |                   ^^^^ F401
+  |
+  = help: Use an explicit re-export: `Fish as Fish`
+
+animals/harmless/__init__.py:1:20: F401 `.birds.Birds` imported but unused; consider removing, adding to `__all__`, or using a redundant alias
+  |
+1 | from .birds import Birds
+  |                    ^^^^^ F401
+  |
+  = help: Use an explicit re-export: `Birds as Birds`
+
+Found 5 errors.
